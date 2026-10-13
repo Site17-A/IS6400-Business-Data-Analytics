@@ -93,16 +93,6 @@ The output is a ranked list of currently-at-risk customers, sorted by predicted 
 with the original categorical fields re-joined so the business can read it directly (segment,
 education, income band, card type) rather than decoding one-hot columns.
 
-**Model quality at this operating point:**
-
-| Metric | Value |
-|---|---|
-| Accuracy | see notebook output |
-| Precision | see notebook output |
-| Recall | see notebook output |
-| F1-score | see notebook output |
-| ROC AUC | see notebook output |
-
 ![Confusion matrix](figures/confusion_matrix.png)
 
 ![ROC curve](figures/roc_curve_all_models.png)
